@@ -136,11 +136,11 @@ $ psql school < create_schema.sql
 
 It's easy to make a typo as you write your SQL, so test loading your schema as you write it (load the schema often!).
 
-###Test your schema
+### Test your schema
 
 Before we load some seed data, login to the postgres server with `psql` and inspect the tables you've created. Here's an example terminal session of inspecting the schema of the `students` table:
 
-```
+```shell
 $ psql school
 psql (9.6.1, server 9.4.5)
 Type "help" for help.
@@ -164,7 +164,7 @@ Use the postgres `\d` command to inspect all of your tables.
 
 If your schema looks correct, try running the included SQL file `seed_data.sql` using `psql`. This will seed your database with student, address, class & enrollment records. Running this script should produce output like this (without any errors):
 
-```
+```shell
 $ psql school < seed_data.sql
 INSERT 0 1
 INSERT 0 1
@@ -176,7 +176,7 @@ If you've chosen the wrong types for any of your columns or forgot a column, you
 
 If the seeds run successfully, connect to your database again and use the `SELECT` command to quickly inspect all the records in your database (one select per table). Here's an example:
 
-```
+```shell
 school=# SELECT * FROM students;
  id | first_name | last_name | birthdate  | address_id
 ----+------------+-----------+------------+------------
