@@ -130,13 +130,13 @@ grade |
 
 Remember you can load your schema with the following command:
 
-```
+```shell
 $ psql school < create_schema.sql
 ```
 
 It's easy to make a typo as you write your SQL, so test loading your schema as you write it (load the schema often!).
 
-### Test your schema
+## Test your schema
 
 Before we load some seed data, login to the postgres server with `psql` and inspect the tables you've created. Here's an example terminal session of inspecting the schema of the `students` table:
 
@@ -156,11 +156,11 @@ school=# \d students;
  address_id | integer                |
 Indexes:
     "students_pkey" PRIMARY KEY, btree (id)
-```
 
 Use the postgres `\d` command to inspect all of your tables.
+```
 
-### Inserting Data
+## Inserting Data
 
 If your schema looks correct, try running the included SQL file `seed_data.sql` using `psql`. This will seed your database with student, address, class & enrollment records. Running this script should produce output like this (without any errors):
 
