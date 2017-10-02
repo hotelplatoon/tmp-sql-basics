@@ -39,7 +39,7 @@ In this challenge you're going to:
 Postgres supports multiple databases. So when we interact with the server, we'll need to specify which database we want to connect to. Before that though, we need to create our database. Postgres comes with a command for this:
 
 ```
-$ createdb [DBNAME]
+$ createdb database_name_goes_here_remember_its_plural_nouns_and_snake_cased
 ```
 
 Create a database named `school`. Confirm it exists by connecting to it with the `psql` command and listing the tables with the `\d` command. You should see output like so:
