@@ -1,6 +1,6 @@
 # SQL Basics
 
-For the most part you'll interact with your database by executing SQL statements. SQL (Structured Query Language) isn't quite a language like Ruby is (it lacks typical features like variables, loops, branching, etc.) but it has its own syntax, we'll need to learn.
+For the most part you'll interact with your database by executing SQL statements. SQL (Structured Query Language) isn't quite a language like Python is (it lacks typical features like variables, loops, branching, etc.) but it has its own syntax, we'll need to learn.
 
 Each database has subtle differences in their implementation of SQL, but we can expect all database servers to support the following commands:
 
