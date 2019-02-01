@@ -27,7 +27,7 @@ INSERT INTO enrollments (id, student_id, class_id, grade) VALUES (1, 1, 2, 'B');
 -- Tiana is taking SPAN 210
 INSERT INTO enrollments (id, student_id, class_id, grade) VALUES (2, 1, 3, NULL);
 -- Elda took ART 118 and got an 'A'
-INSERT INTO enrollments (id, student_id, class_id, grade) VALUES (3, 1, 5, 'A');
+INSERT INTO enrollments (id, student_id, class_id, grade) VALUES (3, 2, 5, 'A');
 -- Elda is taking SPAN 210
 INSERT INTO enrollments (id, student_id, class_id, grade) VALUES (4, 2, 3, NULL);
 -- Elda is taking CS 101
