@@ -174,7 +174,6 @@ INSERT 0 1
 
 If you've chosen the wrong types for any of your columns or forgot a column, you'll probably see some errors when running the seeds. Address these issues by modifying & reloading your schema.
 
-If the seeds run successfully, connect to your database again and use the `SELECT` command to quickly inspect all the records in your database (one select per table). Here's an example:
 
 ```shell
 school=# SELECT * FROM students;
