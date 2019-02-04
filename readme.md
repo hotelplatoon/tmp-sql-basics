@@ -1,6 +1,5 @@
 # SQL Basics
 
-For the most part you'll interact with your database by executing SQL statements. SQL (Structured Query Language) isn't quite a language like Python is (it lacks typical features like variables, loops, branching, etc.) but it has its own syntax, we'll need to learn.
 
 Each database has subtle differences in their implementation of SQL, but we can expect all database servers to support the following commands:
 
@@ -174,8 +173,6 @@ INSERT 0 1
 
 If you've chosen the wrong types for any of your columns or forgot a column, you'll probably see some errors when running the seeds. Address these issues by modifying & reloading your schema.
 
-If the seeds run successfully, connect to your database again and use the `SELECT` command to quickly inspect all the records in your database (one select per table). Here's an example:
-
 ```shell
 school=# SELECT * FROM students;
  id | first_name | last_name | birthdate  | address_id
@@ -188,4 +185,3 @@ school=# SELECT * FROM students;
 (5 rows)
 ```
 
-Run the same select command against all of your tables and make sure you see the same records listing in `seed_data.sql`.
