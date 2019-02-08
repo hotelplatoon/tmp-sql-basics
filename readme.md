@@ -5,7 +5,7 @@ Soris made a change here!
 
 Each database has subtle differences in their implementation of SQL, but we can expect all database servers to support the following commands:
 
-**SELECT**  
+**SELECT this!!!!**  
 Query one or more tables for rows that match specified criteria.
 
 **INSERT**  
