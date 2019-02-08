@@ -2,7 +2,7 @@
 -- particular ids as foreign keys. I.e. setting the address_id for a student
 -- so it references a specific address record. If we didn't specify a value
 -- for the id columns, the database would choose an integer for us.
--- Jasper is the best!!!!
+-- Jasper is the pretty ok'est!!!!
 
 -- This is chris's change
 --
