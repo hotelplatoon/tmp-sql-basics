@@ -1,4 +1,6 @@
 # SQL Basics
+Jason - How many programmers does it take to change a light-bulb?
+
 Soris - 2nd change here!
 
 Caroline's Changes!
