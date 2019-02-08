@@ -2,7 +2,10 @@
 -- particular ids as foreign keys. I.e. setting the address_id for a student
 -- so it references a specific address record. If we didn't specify a value
 -- for the id columns, the database would choose an integer for us.
+-- Jasper is the best!!!!
 
+-- This is chris's change
+--
 INSERT INTO addresses (id, line_1, city, state, zipcode) VALUES (1, '6232 Guiseppe Courts', 'Jamartown', 'Maryland', '49028');
 INSERT INTO addresses (id, line_1, city, state, zipcode) VALUES (2, '704 Cecil Mountain', 'West Jon', 'South Dakota', '91578');
 INSERT INTO addresses (id, line_1, city, state, zipcode) VALUES (3, '41613 Huel Ranch', 'Loycefort', 'Florida', '12109');
