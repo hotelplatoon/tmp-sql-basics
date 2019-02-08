@@ -10,3 +10,5 @@ CREATE TABLE students (
 );
 
 adding things about stuff and breaking things
+
+-- Adding a needless comment here to practice Git - Soris
