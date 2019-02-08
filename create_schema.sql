@@ -8,3 +8,5 @@ CREATE TABLE students (
   different_address_id   integer,
   afield       date NOT NULL
 );
+
+adding things about stuff and breaking things
