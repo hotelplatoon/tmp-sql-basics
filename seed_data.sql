@@ -62,3 +62,5 @@ SELECT setval('addresses_id_seq', (SELECT MAX(id) FROM addresses));
 SELECT setval('students_id_seq', (SELECT MAX(id) FROM students));
 SELECT setval('classes_id_seq', (SELECT MAX(id) FROM classes));
 SELECT setval('enrollments_id_seq', (SELECT MAX(id) FROM enrollments));
+
+--charles did this
