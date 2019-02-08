@@ -1,6 +1,7 @@
 # SQL Basics
 
 Caroline's Changes!
+Soris made a change here!
 
 Each database has subtle differences in their implementation of SQL, but we can expect all database servers to support the following commands:
 
