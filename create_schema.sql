@@ -13,5 +13,6 @@ adding things about stuff and breaking things
 
 -- just some text for training
 --- dependents  varchar(255) NOT NULL
+-- greeting  varchar(255) NOT NULL
 
 -- Adding a needless comment here to practice Git - Soris
